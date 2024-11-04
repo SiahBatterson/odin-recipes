@@ -1,13 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <title>My First Webpage</title>
+    <meta charset="UTF-8" />
+    <title>Odin Recipes</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
 
   <body>
-    <h1>Odin Recipes</h1>
-    <a href="recipes/lasagna.html">Lasagna</a>
+    <div id="container">
+      <div id="Heading">
+        <h1 class="text-center">Odin Recipes</h1>
+      </div>
+      <div id="Recipes">
+        <div id="lasagna-link">
+          <a class="recipe-link" href="recipes/lasagna.html">Lasagna</a>
+          <img src="recipes/lasagna.jpeg" alt="" />
+        </div>
+        <div id="cider-link">
+          <a class="recipe-link" href="recipes/cider.html">Hot Cider</a>
+          <img src="recipes/cider.webp" alt="" />
+        </div>
+        <div id="butternut-link">
+          <a class="recipe-link" href="recipes/butternutsoup.html"
+            >Butternut Squash Soup</a
+          >
+          <img src="recipes/butternutsoup.jpeg" alt="" />
+        </div>
+      </div>
+    </div>
   </body>
 </html>
-

@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: block; /* Default display setting */
+  text-align: center; /* Centers text-based content, if needed */
+}
+
+.introduction {
+  border-radius: 10px;
+  max-width: 90%; /* Limits width of the introduction box */
+  background-color: grey;
+  padding: 20px;
+  margin: 20px auto; /* Centers the container horizontally */
+  text-align: center; /* Centers text content inside */
+}
+
+.introduction h1 {
+  color: white;
+}
+
+.introduction img {
+  width: 80%; /* Adjusts image size for better fit */
+  height: auto; /* Maintains aspect ratio */
+  margin-top: 15px; /* Adds spacing above and below */
+  margin-bottom: 15px;
+  max-width: 30%;
+}
+
+.introduction p {
+  margin: 0;
+  padding: 10px;
+  line-height: 1.5; /* Improves readability */
+}
+
+.ingredients {
+  border-radius: 10px;
+  max-width: 90%; /* Limits width of the introduction box */
+  background-color: grey;
+  padding: 20px;
+  margin: 20px auto; /* Centers the container horizontally */
+  text-align: left; /* Centers text content inside */
+}
+
+.ingredients h2 {
+  text-align: center;
+  color: white;
+}
+
+.steps h2 {
+  text-align: center;
+  color: white;
+}
+
+li {
+  margin: 10px 0;
+}
+
+.steps {
+  border-radius: 10px;
+  max-width: 90%; /* Limits width of the introduction box */
+  background-color: grey;
+  padding: 20px;
+  margin: 20px auto; /* Centers the container horizontally */
+  text-align: left; /* Centers text content inside */
+}

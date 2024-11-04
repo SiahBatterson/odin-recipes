@@ -1,0 +1,49 @@
+#Heading {
+  text-align: center;
+}
+#Recipes {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: gray;
+  max-width: 600px;
+  width: 100%; /* Makes sure it doesn't exceed the max-width */
+  text-align: center; /* Centers text inside the box */
+
+  display: flex;
+  flex-direction: row; /* Stacks links vertically */
+  gap: 130px; /* Adjusts the spacing between links */
+}
+#container {
+  display: flex;
+  flex-direction: column; /* Keeps items in a vertical stack */
+  align-items: center; /* Centers child elements horizontally */
+  justify-content: center; /* Centers child elements vertically */
+  height: 100vh; /* Full viewport height */
+}
+.recipe-link {
+  background-color: black;
+  border-radius: 10px;
+  padding: 5px;
+}
+.recipe-link:hover {
+  background-color: rgb(52, 52, 52);
+  color: rgb(47, 161, 47);
+}
+#lasagna-link,
+#butternut-link,
+#cider-link {
+  text-align: center; /* Centers the content */
+  display: flex;
+  flex-direction: column; /* Stacks link above image */
+  align-items: center;
+}
+
+#lasagna-link img,
+#butternut-link img,
+#cider-link img {
+  width: 100px; /* Adjust to your desired size */
+  height: auto; /* Keeps aspect ratio */
+  border-radius: 5px; /* Adds rounded corners */
+  margin-top: 10px; /* Space between link and image */
+}
